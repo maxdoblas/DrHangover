@@ -1,0 +1,48 @@
+{
+  "id": "1118114e-60fb-4525-b613-9b7886e61564",
+  "name": "case_worst",
+  "auto": true,
+  "contexts": [
+    "INIT"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "WorstCase-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "41452700-6e29-4fc1-8b4b-bbc1b731b784",
+          "required": false,
+          "dataType": "@BadState",
+          "name": "BadState",
+          "value": "$BadState",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Have you had a shower yet?",
+            "Did you shower yet?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540087286,
+  "fallbackIntent": false,
+  "events": []
+}

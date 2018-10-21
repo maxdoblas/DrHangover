@@ -1,0 +1,39 @@
+{
+  "id": "c580174b-d4ef-4f4b-8184-6e0673fba91b",
+  "name": "Morning",
+  "auto": true,
+  "contexts": [
+    "t"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "INIT",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Welp, how are you?",
+            "Oh, so you survived. How are you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540049648,
+  "fallbackIntent": false,
+  "events": []
+}

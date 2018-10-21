@@ -1,0 +1,16 @@
+[
+  {
+    "id": "8dce4631-f49c-498d-8e1b-ccc7c0f63b50",
+    "data": [
+      {
+        "text": "word word word",
+        "alias": "msg",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540075720
+  }
+]

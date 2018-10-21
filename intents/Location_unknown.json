@@ -1,0 +1,32 @@
+{
+  "id": "9305b8c4-d2bc-4f2d-9284-dde2d9d74388",
+  "name": "Location_unknown",
+  "auto": true,
+  "contexts": [
+    "Welcome_memory-followup",
+    "Memory-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Memory-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Look for current location"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1540046204,
+  "fallbackIntent": false,
+  "events": []
+}

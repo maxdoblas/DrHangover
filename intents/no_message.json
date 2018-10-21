@@ -1,0 +1,33 @@
+{
+  "id": "e40f8633-5003-46a5-957b-bfeb439abfad",
+  "name": "no_message",
+  "auto": true,
+  "contexts": [
+    "mess"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Okay, enjoy!",
+            "Have fun!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1540063811,
+  "fallbackIntent": false,
+  "events": []
+}

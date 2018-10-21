@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fa1ee2d7-e2a3-4a1a-8522-af2bc502e1e3",
+    "data": [
+      {
+        "text": "please kill me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540038554
+  },
+  {
+    "id": "36d34918-3c05-4a4e-8b5a-ac0d1e16c6d5",
+    "data": [
+      {
+        "text": "i\u0027m going to die",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540038554
+  },
+  {
+    "id": "f581baa2-0d3f-4b8e-a5b0-a45a606729c7",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "dead",
+        "alias": "BadState",
+        "meta": "@BadState",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540038554
+  }
+]

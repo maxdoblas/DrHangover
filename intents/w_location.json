@@ -1,0 +1,31 @@
+{
+  "id": "e00a47c0-9eb4-4e77-b97a-eafb36bc61e8",
+  "name": "w_location",
+  "auto": true,
+  "contexts": [
+    "INIT"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Look for current location"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540046380,
+  "fallbackIntent": false,
+  "events": []
+}

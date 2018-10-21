@@ -1,0 +1,24 @@
+[
+  {
+    "value": "a lot",
+    "synonyms": [
+      "a lot",
+      "lots",
+      "loads"
+    ]
+  },
+  {
+    "value": "not much",
+    "synonyms": [
+      "not much",
+      "not really",
+      "a little bit"
+    ]
+  },
+  {
+    "value": "some",
+    "synonyms": [
+      "some"
+    ]
+  }
+]

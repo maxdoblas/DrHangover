@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a3c8da4c-e2d0-4ab8-8fc7-5140c43cce13",
+    "data": [
+      {
+        "text": "i don\u0027t think so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540088036
+  },
+  {
+    "id": "740b0a8a-f0d8-4eeb-aebf-78caf21a9927",
+    "data": [
+      {
+        "text": "nope",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540088036
+  },
+  {
+    "id": "5b442de8-b9a6-4a96-85d9-98dd17c98304",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540088036
+  }
+]

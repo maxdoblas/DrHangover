@@ -1,0 +1,66 @@
+[
+  {
+    "value": "head",
+    "synonyms": [
+      "head",
+      "face",
+      "forehead",
+      "brain",
+      "headache"
+    ]
+  },
+  {
+    "value": "stomach",
+    "synonyms": [
+      "stomach",
+      "tummy",
+      "belly",
+      "stomachache"
+    ]
+  },
+  {
+    "value": "leg",
+    "synonyms": [
+      "leg",
+      "legs"
+    ]
+  },
+  {
+    "value": "arm",
+    "synonyms": [
+      "arm",
+      "elbow"
+    ]
+  },
+  {
+    "value": "hand",
+    "synonyms": [
+      "hand",
+      "finger",
+      "hands"
+    ]
+  },
+  {
+    "value": "foot",
+    "synonyms": [
+      "foot",
+      "feet",
+      "toe"
+    ]
+  },
+  {
+    "value": "back",
+    "synonyms": [
+      "back",
+      "backache",
+      "spine"
+    ]
+  },
+  {
+    "value": "neck",
+    "synonyms": [
+      "neck",
+      "collar"
+    ]
+  }
+]

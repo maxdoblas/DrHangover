@@ -1,0 +1,33 @@
+{
+  "id": "4e8cb110-573a-4249-ab43-f0eede3b060a",
+  "parentId": "1118114e-60fb-4525-b613-9b7886e61564",
+  "rootParentId": "1118114e-60fb-4525-b613-9b7886e61564",
+  "name": "Worst Case - yes",
+  "auto": true,
+  "contexts": [
+    "WorstCase-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "WorstCase.WorstCase-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Then you should drink some water and sleep a little more."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540086191,
+  "fallbackIntent": false,
+  "events": []
+}

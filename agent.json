@@ -1,0 +1,57 @@
+{
+  "description": "El nostre agent del HackUPC",
+  "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "hackupc-a1fe2",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "dbbea902-4b46-4b5a-8016-21b9f22b01cf",
+        "signInRequired": false
+      },
+      {
+        "intentId": "b81d5db7-e63c-47a2-9395-0c8eaf903003",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "b3c39509-1311-44ca-86cd-47a84d698329",
+      "416fb90b-0ecd-4205-b5ac-461f2b26486e",
+      "b3cae43d-ce7c-4b38-997e-c0699010e88e"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Europe/Madrid",
+  "webhook": {
+    "url": "https://us-central1-hackupc-a1fe2.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2beta1",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

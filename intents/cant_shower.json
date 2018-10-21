@@ -1,0 +1,30 @@
+{
+  "id": "4041bcbe-8feb-4a89-b1ed-8d1ab31a4185",
+  "name": "cant_shower",
+  "auto": true,
+  "contexts": [
+    "shower"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Go take a shower."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540088106,
+  "fallbackIntent": false,
+  "events": []
+}

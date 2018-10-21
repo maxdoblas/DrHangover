@@ -1,0 +1,39 @@
+{
+  "id": "bf52bb2f-6931-4953-bffe-9f0084425b29",
+  "name": "message_y",
+  "auto": true,
+  "contexts": [
+    "mess"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "mess2",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Record a message now:",
+            "Record a reminder now:"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540076667,
+  "fallbackIntent": false,
+  "events": []
+}

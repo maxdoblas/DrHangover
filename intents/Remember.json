@@ -1,0 +1,45 @@
+{
+  "id": "32a46b78-a905-49c9-815b-410517023444",
+  "name": "Remember",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ae9eef88-622a-4f25-88f4-74eaeb8a85a2",
+          "required": false,
+          "dataType": "@memory",
+          "name": "memory",
+          "value": "$memory",
+          "isList": false
+        },
+        {
+          "id": "5a902729-e31b-4d00-9ed5-7a3ba3830ad4",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Let me help you"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540087476,
+  "fallbackIntent": false,
+  "events": []
+}

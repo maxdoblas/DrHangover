@@ -1,0 +1,39 @@
+{
+  "id": "cb5e87ea-8c76-4819-be8b-2ee36edbf47b",
+  "name": "case_regular",
+  "auto": true,
+  "contexts": [
+    "INIT"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "memo",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "You should take a shower and drink less.",
+            "Take a shower and take it esasy the next time."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540087255,
+  "fallbackIntent": false,
+  "events": []
+}

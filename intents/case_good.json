@@ -1,0 +1,39 @@
+{
+  "id": "79146850-f756-4021-b5ab-a5c9f0431709",
+  "name": "case_good",
+  "auto": true,
+  "contexts": [
+    "INIT"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "memo",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Perfect, go on like this and enjoy this magnific day.",
+            "Good! Keep it like that."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540087865,
+  "fallbackIntent": false,
+  "events": []
+}

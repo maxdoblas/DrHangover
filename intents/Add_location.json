@@ -1,0 +1,39 @@
+{
+  "id": "b5d8df7d-dcba-4795-9ea5-e380073a6682",
+  "name": "Add_location",
+  "auto": true,
+  "contexts": [
+    "mess2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e53246cc-76b9-4441-bc4b-1da025aeb388",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "msg",
+          "value": "$msg",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The message is: $msg"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1540077679,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "8e68e096-64c0-4472-8bbc-a09560a5916b",
+  "name": "Worst Case_no",
+  "auto": true,
+  "contexts": [
+    "WorstCase-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "WorstCace.WorstCace-no",
+      "affectedContexts": [
+        {
+          "name": "shower",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Can you shower?",
+            "Are you able to take a shower?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1540087930,
+  "fallbackIntent": false,
+  "events": []
+}
